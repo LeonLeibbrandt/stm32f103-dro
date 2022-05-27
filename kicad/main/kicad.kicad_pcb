@@ -449,10 +449,10 @@
       (net 38 "CAL3DAT") (pinfunction "HV_2") (pintype "bidirectional") (tstamp d843a075-9919-4105-8fb7-44c0b6024f34))
     (pad "12" thru_hole oval locked (at 0 -10.11) (size 1.2 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 37 "CAL3CLK") (pinfunction "HV_1") (pintype "bidirectional") (tstamp b027950a-6f7d-47c9-9641-61c53ba4dd0f))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/BOB-12009.wrl"
-      (offset (xyz 6.5 5 2))
-      (scale (xyz 0.4 0.4 0.2001))
-      (rotate (xyz 0 0 -90))
+    (model "/home/leonl/Projects/stm32f103-dro/kicad/3dmodels/Logic Level Converter.wrl"
+      (offset (xyz 7.8 -9.5 2))
+      (scale (xyz 0.39 0.19 0.39))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -507,10 +507,10 @@
       (net 34 "CAL1DAT") (pinfunction "HV_2") (pintype "bidirectional") (tstamp 0322740a-b940-4593-b6ab-d6f96088bbde))
     (pad "12" thru_hole oval locked (at 0 -10.11) (size 1.2 2) (drill 0.8) (layers *.Cu *.Mask)
       (net 33 "CAL1CLK") (pinfunction "HV_1") (pintype "bidirectional") (tstamp d62cad4a-ea6d-45ea-9e57-8cabef05b22f))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/BOB-12009.wrl"
-      (offset (xyz 6.5 5 2))
-      (scale (xyz 0.4 0.4 0.2001))
-      (rotate (xyz 0 0 -90))
+    (model "/home/leonl/Projects/stm32f103-dro/kicad/3dmodels/Logic Level Converter.wrl"
+      (offset (xyz 7.8 -9.5 2))
+      (scale (xyz 0.39 0.19 0.39))
+      (rotate (xyz 90 0 0))
     )
   )
 
@@ -754,10 +754,10 @@
       (net 1 "GND") (pinfunction "GND") (pintype "input") (tstamp 76090b26-165b-458a-b6b1-ee65b5d48bc9))
     (pad "40" thru_hole oval locked (at 15.24 0 270) (size 2 1.2) (drill 0.8) (layers *.Cu *.Mask "F.SilkS")
       (net 1 "GND") (pinfunction "GND") (pintype "input") (tstamp b4785150-8417-4e53-b432-84621e93e479))
-    (model "${KIPRJMOD}/../modules/packages3d/stm32bluepill.wrl"
-      (offset (xyz 19 -50.6 2.5))
-      (scale (xyz 0.39 0.39 0.39))
-      (rotate (xyz -90 0 0))
+    (model "/home/leonl/Projects/stm32f103-dro/kicad/3dmodels/YAAJ_BluePill_PinHeaders_B_SWD_cp.wrl"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
     )
   )
 

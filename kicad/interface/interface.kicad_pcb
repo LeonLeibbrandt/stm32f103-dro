@@ -132,9 +132,9 @@
       (net 5 "Net-(J1-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 6d26d68f-1ca7-4ff3-b058-272f1c399047))
     (pad "2" thru_hole oval locked (at 0 5) (size 3.048 1.85) (drill 1.3) (layers *.Cu *.Mask)
       (net 5 "Net-(J1-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 9f8381e9-3077-4453-a480-a01ad9c1a940))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/SW_PUSH-12mm.wrl"
-      (offset (xyz 6.35 -2.35 0))
-      (scale (xyz 3.95 3.95 1.6))
+    (model "${KIPRJMOD}/../3dmodels/Tactile Push Button THT 12x12mm H8.50mm (Würth 430476085716).stp"
+      (offset (xyz 6 -2.5 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -185,9 +185,9 @@
       (net 4 "Net-(J1-Pad2)") (pinfunction "2") (pintype "passive") (tstamp aca4de92-9c41-4c2b-9afa-540d02dafa1c))
     (pad "2" thru_hole oval locked (at 0 5) (size 3.048 1.85) (drill 1.3) (layers *.Cu *.Mask)
       (net 4 "Net-(J1-Pad2)") (pinfunction "2") (pintype "passive") (tstamp e8c50f1b-c316-4110-9cce-5c24c65a1eaa))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/SW_PUSH-12mm.wrl"
-      (offset (xyz 6.35 -2.35 0))
-      (scale (xyz 3.95 3.95 1.6))
+    (model "${KIPRJMOD}/../3dmodels/Tactile Push Button THT 12x12mm H8.50mm (Würth 430476085716).stp"
+      (offset (xyz 6 -2.5 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -238,9 +238,9 @@
       (net 3 "Net-(J1-Pad3)") (pinfunction "2") (pintype "passive") (tstamp 63ff1c93-3f96-4c33-b498-5dd8c33bccc0))
     (pad "2" thru_hole oval locked (at 0 5) (size 3.048 1.85) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "Net-(J1-Pad3)") (pinfunction "2") (pintype "passive") (tstamp c01d25cd-f4bb-4ef3-b5ea-533a2a4ddb2b))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/SW_PUSH-12mm.wrl"
-      (offset (xyz 6.35 -2.35 0))
-      (scale (xyz 3.95 3.95 1.6))
+    (model "${KIPRJMOD}/../3dmodels/Tactile Push Button THT 12x12mm H8.50mm (Würth 430476085716).stp"
+      (offset (xyz 6 -2.5 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -291,9 +291,9 @@
       (net 5 "Net-(J1-Pad1)") (pinfunction "2") (pintype "passive") (tstamp 1a1ab354-5f85-45f9-938c-9f6c4c8c3ea2))
     (pad "2" thru_hole oval locked (at 12.5 5) (size 3.048 1.85) (drill 1.3) (layers *.Cu *.Mask)
       (net 5 "Net-(J1-Pad1)") (pinfunction "2") (pintype "passive") (tstamp c0515cd2-cdaa-467e-8354-0f6eadfa35c9))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/SW_PUSH-12mm.wrl"
-      (offset (xyz 6.35 -2.35 0))
-      (scale (xyz 3.95 3.95 1.6))
+    (model "${KIPRJMOD}/../3dmodels/Tactile Push Button THT 12x12mm H8.50mm (Würth 430476085716).stp"
+      (offset (xyz 6 -2.5 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -344,9 +344,9 @@
       (net 4 "Net-(J1-Pad2)") (pinfunction "2") (pintype "passive") (tstamp 8174b4de-74b1-48db-ab8e-c8432251095b))
     (pad "2" thru_hole oval locked (at 0 5) (size 3.048 1.85) (drill 1.3) (layers *.Cu *.Mask)
       (net 4 "Net-(J1-Pad2)") (pinfunction "2") (pintype "passive") (tstamp f71da641-16e6-4257-80c3-0b9d804fee4f))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/SW_PUSH-12mm.wrl"
-      (offset (xyz 6.35 -2.35 0))
-      (scale (xyz 3.95 3.95 1.6))
+    (model "${KIPRJMOD}/../3dmodels/Tactile Push Button THT 12x12mm H8.50mm (Würth 430476085716).stp"
+      (offset (xyz 6 -2.5 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
@@ -397,9 +397,9 @@
       (net 3 "Net-(J1-Pad3)") (pinfunction "2") (pintype "passive") (tstamp 4fb02e58-160a-4a39-9f22-d0c75e82ee72))
     (pad "2" thru_hole oval locked (at 0 5) (size 3.048 1.85) (drill 1.3) (layers *.Cu *.Mask)
       (net 3 "Net-(J1-Pad3)") (pinfunction "2") (pintype "passive") (tstamp 77ed3941-d133-4aef-a9af-5a39322d14eb))
-    (model "/home/leonl/Projects/stm32f103-dro/kicad/modules/packages3d/SW_PUSH-12mm.wrl"
-      (offset (xyz 6.35 -2.35 0))
-      (scale (xyz 3.95 3.95 1.6))
+    (model "${KIPRJMOD}/../3dmodels/Tactile Push Button THT 12x12mm H8.50mm (Würth 430476085716).stp"
+      (offset (xyz 6 -2.5 0))
+      (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
     )
   )
