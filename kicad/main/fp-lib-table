@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name dro)(type KiCad)(uri ${KIPRJMOD}/../modules/dro.pretty)(options "")(descr ""))
+  (lib (name w_conn_mpt)(type KiCad)(uri ${KIPRJMOD}/../modules/w_conn_mpt.pretty)(options "")(descr ""))
+)
