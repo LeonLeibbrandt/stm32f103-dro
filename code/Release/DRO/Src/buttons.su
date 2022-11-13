@@ -1,2 +1,0 @@
-buttons.c:27:6:buttons_setup	8	static
-buttons.c:34:6:HAL_GPIO_EXTI_Callback	16	static
