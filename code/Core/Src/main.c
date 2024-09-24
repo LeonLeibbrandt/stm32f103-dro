@@ -59,14 +59,6 @@ void SystemClock_Config(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-int _write(int file, char *ptr, int len)
-{
-  /* Implement your write code here, this is used by puts and printf for example */
-  int i=0;
-  for(i=0 ; i<len ; i++)
-    ITM_SendChar((*ptr++));
-  return len;
-}
 /* USER CODE END 0 */
 
 /**
@@ -75,6 +67,7 @@ int _write(int file, char *ptr, int len)
   */
 int main(void)
 {
+
   /* USER CODE BEGIN 1 */
   /* USER CODE END 1 */
 
@@ -110,21 +103,21 @@ int main(void)
   DisableCaliperInterrupts();
   HAL_GPIO_WritePin(CAL1SW_GPIO_Port, CAL1SW_Pin, GPIO_PIN_SET);
   calipers[0]->last = HAL_GetTick();
-#ifdef DEBUG
-  printf("Started X\n");
-#endif
+
+  // printf("Started X\n");
+
   HAL_Delay(30);
   HAL_GPIO_WritePin(CAL2SW_GPIO_Port, CAL2SW_Pin, GPIO_PIN_SET);
   calipers[1]->last = HAL_GetTick();
-#ifdef DEBUG
-  printf("Started Y\n");
-#endif
+
+  // printf("Started Y\n");
+
   HAL_Delay(30);
   HAL_GPIO_WritePin(CAL3SW_GPIO_Port, CAL3SW_Pin, GPIO_PIN_SET);
   calipers[2]->last = HAL_GetTick();
-#ifdef DEBUG
-  printf("Started Z\n");
-#endif
+
+  // printf("Started Z\n");
+
   EnableCaliperInterrupts();
 
   buttons_setup();

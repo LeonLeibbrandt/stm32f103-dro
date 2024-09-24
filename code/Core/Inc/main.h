@@ -81,12 +81,6 @@ void Error_Handler(void);
 #define CAL2SW_GPIO_Port GPIOA
 #define CAL3SW_Pin GPIO_PIN_8
 #define CAL3SW_GPIO_Port GPIOA
-#define SWDIO_Pin GPIO_PIN_13
-#define SWDIO_GPIO_Port GPIOA
-#define SWCLK_Pin GPIO_PIN_14
-#define SWCLK_GPIO_Port GPIOA
-#define SWO_Pin GPIO_PIN_3
-#define SWO_GPIO_Port GPIOB
 #define BUTTOUT0_Pin GPIO_PIN_5
 #define BUTTOUT0_GPIO_Port GPIOB
 #define BUTTOUT1_Pin GPIO_PIN_6
@@ -100,6 +94,7 @@ void Error_Handler(void);
 #define BUTTIN2_Pin GPIO_PIN_9
 #define BUTTIN2_GPIO_Port GPIOB
 #define BUTTIN2_EXTI_IRQn EXTI9_5_IRQn
+
 /* USER CODE BEGIN Private defines */
 
 /* USER CODE END Private defines */

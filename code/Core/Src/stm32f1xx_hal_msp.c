@@ -1,3 +1,4 @@
+
 /* USER CODE BEGIN Header */
 /**
   ******************************************************************************
@@ -63,6 +64,7 @@
   */
 void HAL_MspInit(void)
 {
+
   /* USER CODE BEGIN MspInit 0 */
 
   /* USER CODE END MspInit 0 */
@@ -74,9 +76,9 @@ void HAL_MspInit(void)
 
   /* System interrupt init*/
 
-  /** NOJTAG: JTAG-DP Disabled and SW-DP Enabled
+  /** DISABLE: JTAG-DP Disabled and SW-DP Disabled
   */
-  __HAL_AFIO_REMAP_SWJ_NOJTAG();
+  __HAL_AFIO_REMAP_SWJ_DISABLE();
 
   /* USER CODE BEGIN MspInit 1 */
 
